@@ -1,0 +1,52 @@
+body{
+            background-image: url("download\ \(1\).png");
+            background-size: cover;
+        }
+        .class1{
+            background-color: gray;
+            text-align: center;
+        }
+        .class1 ul{
+            padding: 20px;
+            list-style: none;
+            color: white;
+        }
+        .class1 ul li{
+            display: inline;
+            width: 120px;
+            margin-left: 15px;
+            padding: 15px;
+        }
+        .class1 ul li a{
+            text-decoration: none;
+            color: yellow;
+        }
+        .active, .class1 ul li:hover{
+            background-color: blue;
+            font-size: 20px;
+        }
+        .main{
+            display: flex;
+        }
+        .left{
+            margin-right: 40px;
+        }
+        .middle{
+            margin-left: 10px;
+            margin-right: 40px;
+        }
+        .right{
+            margin-left: 40px;
+        }
+        .footer{
+            text-align: center;
+            background-color: brown;
+            padding: 6px;
+        }
+        #p1{
+            font-size: 20px;
+            color: white;
+        }
+        span{
+            color: yellowgreen;
+        }
